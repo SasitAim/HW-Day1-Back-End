@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <p id="result"></p>
+  <!-- <p id="input_GB"></p> -->
+
+  <script>
+    let input_x = prompt("X = ");
+    let input_y = prompt("Y = ");
+
+    let x_and_y = parseFloat(input_x) + parseFloat(input_y);
+    // let sayGoodbye = "Goodbye " + your_name;
+
+    console.log(x_and_y);
+    // console.log(sayGoodbye);
+
+
+    document.getElementById("result").innerHTML = x_and_y;
+    // document.getElementById("input_GB").innerHTML = sayGoodbye;
+
+  </script>
+
+</body>
+
+</html>

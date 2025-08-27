@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="result"></p>
+
+  <script>
+    let Weight = prompt("กรอกน้ำหนักของคุณ...");
+    let Water_Vol = "คุณควรดื่มน้ำวันละ " + (33 * Weight) + " cc";
+
+    console.log(Water_Vol);
+    document.getElementById("result").innerHTML = Water_Vol;
+
+  </script>
+</body>
+</html>
